@@ -73,18 +73,18 @@
 **Windows / PowerShell**
 
 ```powershell
-git clone https://github.com/gugu1031/gugu-report-skills.git (Join-Path $env:USERPROFILE '.codex\skills\gugu-report-skills')
+git clone https://github.com/gugu1031/gugu-report-skills.git (Join-Path $env:USERPROFILE '.agents\skills\gugu-report-skills')
 ```
 
 **macOS / Linux**
 
 ```bash
-git clone https://github.com/gugu1031/gugu-report-skills.git "$HOME/.codex/skills/gugu-report-skills"
+git clone https://github.com/gugu1031/gugu-report-skills.git "$HOME/.agents/skills/gugu-report-skills"
 ```
 
 也可以在 [Releases](https://github.com/gugu1031/gugu-report-skills/releases/latest) 下载精简技能 ZIP，解压后放入技能目录。精简包仅含技能文件，不包含演示 PDF 和截图。如果已有同名技能，请先备份，避免覆盖自己的修改。
 
-以上路径对应默认用户技能目录；若你的环境配置了其他技能目录，以实际配置为准。
+以上路径依据 [Codex 官方技能文档](https://learn.chatgpt.com/docs/build-skills)。部分既有环境使用 `.codex/skills`；如果已能正常识别，无需搬迁或重复安装。安装后新建会话检查，未识别时重启应用，并以实际版本的配置为准。
 
 ### 2. 提供材料并调用
 
