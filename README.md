@@ -1,15 +1,15 @@
 <div align="center">
 
-![gugu-report-skills](assets/banner.svg)
+![gugu-report-skills](assets/banner.png)
 
 **把课程材料，整理成有依据、有结构、经过逐页检查的学术报告。**
 
-![Agent Skill](https://img.shields.io/badge/Agent-Skill-214F75?style=flat-square)
+![Agent Skill](https://img.shields.io/badge/Agent-Skill-5F7664?style=flat-square)
 ![LaTeX](https://img.shields.io/badge/Output-LaTeX%20%2B%20PDF-52796F?style=flat-square)
 ![Chinese](https://img.shields.io/badge/Writing-中文学术报告-BB8B52?style=flat-square)
 ![Demo](https://img.shields.io/badge/Demo-24%20pages-6B7280?style=flat-square)
 
-[查看演示 PDF](demo/report-demo.pdf) · [下载技能包](https://github.com/gugu1031/gugu-report-skills/releases/latest) · [快速开始](#快速开始) · [完整工作流](SKILL.md)
+[在线阅读报告](demo/gallery.md) · [下载 PDF](https://github.com/gugu1031/gugu-report-skills/releases/download/v1.0.0/report-demo.pdf) · [下载技能包](https://github.com/gugu1031/gugu-report-skills/releases/latest) · [快速开始](#快速开始) · [完整工作流](SKILL.md)
 
 </div>
 
@@ -49,7 +49,9 @@
   </tr>
 </table>
 
-**[打开完整的 24 页演示报告 →](demo/report-demo.pdf)**
+**[在线阅读完整的 24 页报告 →](demo/gallery.md)** · **[直接下载 PDF](https://github.com/gugu1031/gugu-report-skills/releases/download/v1.0.0/report-demo.pdf)**
+
+在线阅读使用逐页图片。若 GitHub 的 PDF 预览无法加载，请通过上方下载链接保存后，用本机 PDF 阅读器打开。
 
 > 这是经过脱敏的排版演示：个人信息及部分实验数字已替换为 `xxx`。正文、目录、标题和图片大部分保留，图表形状与趋势仍然可见。演示 PDF 采用页面图像封装，不提供可搜索文本层；其中的占位数值和命令不能用于复现实验。详细说明见 [演示文档说明](demo/README.md)。
 
@@ -138,9 +140,11 @@ gugu-report-skills/
 │   ├── default-style.md           # 默认排版与报告结构
 │   └── prompt-template.md         # 可复用中文提示词
 ├── assets/
-│   └── banner.svg                 # README 标题图
+│   └── banner.png                 # README 标题图
 ├── demo/
-│   ├── README.md                  # 演示范围与脱敏说明
+│   ├── README.md                  # 演示文档说明
+│   ├── gallery.md                 # 完整报告在线阅读
+│   ├── pages/                     # 24 页图片，无需 PDF 预览器
 │   ├── report-demo.pdf            # 24 页公开演示
 │   ├── page-review.md             # 演示检查记录
 │   └── screenshots/              # 6 张文档页面截图
@@ -158,3 +162,4 @@ gugu-report-skills/
 Maintained by [gugu1031](https://github.com/gugu1031)
 
 </div>
+

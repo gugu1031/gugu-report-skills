@@ -1,6 +1,6 @@
-# 公开演示报告
+# 课程实验报告
 
-[查看完整 PDF](report-demo.pdf) · [查看页面截图](screenshots/) · [逐页检查记录](page-review.md)
+[在线阅读全文](gallery.md) · [直接下载 PDF](https://github.com/gugu1031/gugu-report-skills/releases/download/v1.0.0/report-demo.pdf) · [查看页面截图](screenshots/) · [逐页检查记录](page-review.md)
 
 这份 **24 页**的课程实验报告用于展示技能在报告组织、中文排版、图表呈现、代码附录等方面的效果。
 
