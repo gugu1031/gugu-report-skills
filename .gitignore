@@ -1,0 +1,17 @@
+# Local build and review artifacts
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+work/
+review/
+dist/
+
+# Keep source reports and private drafts outside this public repository.
+*.original.pdf
+*.private.pdf

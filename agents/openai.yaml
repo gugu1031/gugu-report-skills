@@ -1,0 +1,4 @@
+interface:
+  display_name: "gugu-report-skills"
+  short_description: "Write LaTeX academic reports."
+  default_prompt: "Use $gugu-report-skills to complete a course, lab, paper-review, method-comparison, or project report from requirements, templates, code, figures, and results with reliable LaTeX/PDF output and visual checks."
